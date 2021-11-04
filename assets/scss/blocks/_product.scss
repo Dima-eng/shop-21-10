@@ -1,0 +1,96 @@
+.product {
+
+    .product__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .product__item {
+        flex-grow: 1;
+        flex-basis: 200px; /*мешьне 200 пикселей ширина не может быть*/
+        max-width: 360px;
+        background-color: $backgraund-product;
+        margin: 0 0 30px 0;
+        box-sizing:border-box;
+        height: 581px;
+    }
+
+    .product-wrp-overlay {
+        position: relative;
+    }
+
+    .product__button {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: $white;
+        background-color:transparent;
+        border: 1px solid $white;
+
+        position: absolute;
+        width: 138px;
+        height: 43px;
+        top: 35%;
+        left: 46%;
+        transform: translate(-38%,-46%);
+    }
+
+    .product__item_margin {
+        padding: 25px 0 20px 17px;
+    }
+
+    .product-wrp-overlay::before {
+        content: '';
+        width: 100%;
+        min-height: 420px;
+        background: rgba(58, 56, 56, 0.86);
+        position: absolute;
+        top: 0;
+    }
+
+    .product__button,
+    .product-wrp-overlay::before {
+        display: none;
+    }
+
+    .product__item:hover .product__button {
+        cursor: pointer;
+    }
+
+    .product__item:hover .product__button,
+    .product__item:hover .product-wrp-overlay::before {
+        display: block;
+    }
+
+    .product__item_margin {
+        padding: 25px 0 20px 17px;
+    }
+
+    .product__item-heading {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: left;
+        text-transform: uppercase;
+        color: $black-product;
+        padding: 0 0 13px 0;
+    }
+
+    .product__item-title {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: left;
+        padding: 0 0 17px 0;
+        color: $black-silver;
+    }
+
+    .product__item-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: left;
+        color: $white--red;
+    }
+}
