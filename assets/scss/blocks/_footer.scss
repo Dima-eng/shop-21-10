@@ -1,0 +1,124 @@
+.footer {
+    .subscribe {
+        background-image: url("../img/backround-footer.jpg");
+        width: 100%;
+        height: 449px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .subscribe__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe__item-women {
+        margin: 100px 0 0 0;
+        text-align: center;   
+        width: 359px;
+    }
+
+    .subscribe__title {
+        margin: 32px 0 0 0;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $black;
+    }
+
+    .subscribe__subtitle {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+        color: $black;
+    }
+
+    .subscribe__item-form {
+        margin: 150px 90px 0 0;
+        text-align: center;
+    }
+
+    .subscribe__item-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    .subscribe__item-text  {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+    .subscribe__input {
+        margin: 32px -4px 0 0;
+        box-sizing:border-box;
+        height: 49px;
+        width: 265px;
+        background-color: $backgraund-input;
+        padding: 7px 0 7px 22px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: 0;
+    }
+
+    .subscribe__input::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: left;
+        color: $black;
+    }
+
+    .subscribe__input:hover,
+    .subscribe__input:focus {
+        outline: none;
+    }
+
+    .subscribe__button {
+        margin: 32px 0 0 0;
+        box-sizing:border-box;
+        width: 100px;
+        height: 49px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border:0;
+        background-color: $white--red;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+        color: $white;
+    }
+
+    .subscribe__button:hover,
+    .subscribe__button:focus {
+        background-color: $black-pink;
+        cursor: pointer;
+    }
+
+    .social {
+        background-color: $black;
+    }
+
+    .social__list {
+        height: 79px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social__item {
+        align-self:center;
+    }
+
+    .social__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: left;
+        color: $delivery-color;
+    }
+}

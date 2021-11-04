@@ -1,0 +1,169 @@
+.registr {
+
+    .register__box {
+    box-sizing:border-box;
+    height: 148px;
+    background-color: $light-beige;
+    padding: 59px 0 0 0;
+}
+
+.registr__heading {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $white--red;
+}
+
+.registr__list{
+    display: flex;
+}
+
+.regist__item-form {
+    margin: 64px 100px 0 0;
+    width: 360px;
+}
+
+.form__title{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: $black;
+}
+
+.form__input{
+    width: 360px;
+    height: 45px;
+    padding: 0 0 0 17px;
+    margin: 0 0 20px 0;    
+    border: 1px solid $white-silver-2;
+}
+
+.form__input::placeholder{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    color: $white-silver;
+}
+
+.form__input:hover,
+.form__input:focus {
+    outline: none;
+}
+
+.form__radio-list {
+    margin: 13px 0 35px 0;
+}
+
+.form__radio {
+    display: none;
+}
+
+.radio__label {
+    position: relative;
+    margin: 0 10px 0 30px;
+}
+
+.radio__label::after {
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 17px;
+    border: 1px solid $white-silver-2;
+    border-radius: 50%;
+    left: -30px;
+    top: -1px;
+}
+
+.form__radio:checked + .radio__label::after {
+    border:1px solid $white--red;
+    background: $white--red;
+}
+
+.form__text {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    color: $white-silver;
+}
+
+.form__button {
+    margin: 39px 0 96px 0;
+    width: 167px;
+    height: 50px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    color:$white--red;
+    background-color:$white;
+    border: 1px solid $white--red;
+}
+
+.form__img{
+    fill: $white--red;
+}
+
+.form__button:hover,
+.form__button:focus {
+    color:$white;
+    outline: none;
+    background-color: $white--red;
+    border: 1px solid $white--red;
+    cursor: pointer;
+}
+
+.form__button:hover .form__img,
+.form__button:focus .form__img {
+    fill: $white;
+}
+
+.form__buttom_subtitle {
+    margin-right: 20px;
+}
+
+.registr__item-info {
+    margin: 64px 0 0 0;
+}
+
+.info__title {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.info__text {
+    padding: 22px 0 0 0;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
+    color: $black;
+}
+
+.info__list {
+    margin: 21px 0 0 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    color: $black;
+}
+
+.info__item {
+    margin: 0 0 16px 45px;
+    position: relative;
+}
+
+.info__item::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 16px;
+    background-image: url(../img/check-mark.svg);
+    left: -40px;
+    top: 5px;
+}
+}

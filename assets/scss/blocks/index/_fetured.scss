@@ -1,0 +1,45 @@
+.fetured {
+
+    .fetured__heading {
+        margin: 97px 0 6px 0;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        color: $black;
+    }
+
+    .fetured__title {
+        margin: 0 0 48px 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: center;
+        color: $silver;
+    }
+
+    .button-center {
+        text-align: center;
+    }
+
+    .fetured__button {
+        margin: 19px 0 0 0;
+        width: 211px;
+        height: 47px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: $white--red;
+        background-color: $white;
+        border: 1px solid $white--red;
+    }
+
+    .fetured__button:hover,
+    .fetured__button:focus {
+        background-color: $black-pink;
+        border: 1px solid $black-pink;
+        color: $white;
+        cursor: pointer;
+    }
+}
